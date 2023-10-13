@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1%;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#alamat {
+    min-height: 100px;
+}
+
+#submit {
+    width: 30%;
+}
+
+input[type="submit"] {
+    border-radius: 5%;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
